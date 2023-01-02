@@ -24,7 +24,16 @@ public class Menu extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent( Menu.this, ClothingMenu.class);
+                Intent it = new Intent(Menu.this, ClothingMenu.class);
+                startActivity(it);
+            }
+        });
+
+        Button btn2 = findViewById(R.id.button3);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent( Menu.this, EducationMenu.class);
                 startActivity(it);
             }
         });

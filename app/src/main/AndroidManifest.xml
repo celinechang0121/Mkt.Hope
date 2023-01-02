@@ -49,6 +49,14 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".EducationMenu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+
+
 
 
 
