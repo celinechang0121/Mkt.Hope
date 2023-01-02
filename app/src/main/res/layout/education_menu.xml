@@ -2,12 +2,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:gravity="center_horizontal"
     android:layout_height="match_parent">
 
-    <Button
+    <TextView
         android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFFFFF"
+        android:padding="1dp"
+        android:text="Education"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/black"
+        android:textSize="29dp"/>
+
+    <Button
+        android:id="@+id/button2"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
         android:layout_marginBottom="20dp"
         android:backgroundTint="#B9E4A9"
         android:paddingTop="20dp"
@@ -22,7 +36,7 @@
         android:layout_height="wrap_content"
         android:paddingBottom="20dp"
         android:paddingTop="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:textColor="@color/black"
         android:backgroundTint="#B9E4A9"
         android:text="Receive"
@@ -34,11 +48,13 @@
         android:layout_height="wrap_content"
         android:paddingBottom="20dp"
         android:paddingTop="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:textColor="@color/black"
         android:backgroundTint="#B9E4A9"
         android:text="PDF"
         android:textSize="18dp" />
+
+
 
 
 </LinearLayout>
