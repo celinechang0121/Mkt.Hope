@@ -30,7 +30,7 @@ public class Menu extends AppCompatActivity {
         });
 
         Button btn2 = findViewById(R.id.button3);
-        btn1.setOnClickListener(new View.OnClickListener() {
+        btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent it = new Intent( Menu.this, EducationMenu.class);

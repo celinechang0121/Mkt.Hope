@@ -14,4 +14,41 @@ public class EducationMenu extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.education_menu);}}
+        setContentView(R.layout.education_menu);
+
+        //define
+        String a = "hello";
+
+        Button btn1 = findViewById(R.id.button2);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(EducationMenu.this, EducationdonateMenu.class);
+                startActivity(it);
+            }
+        });
+
+        Button btn2 = findViewById(R.id.button3);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(EducationMenu.this, ReceiveMenu.class);
+                startActivity(it);
+            }
+        });
+        Button btn3 = findViewById(R.id.button4);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(EducationMenu.this, PdfMenu.class);
+                startActivity(it);
+            }
+        });
+    }
+}
+
+
+
+
+
+
