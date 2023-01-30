@@ -1,18 +1,16 @@
 package celine.chang.mkthope;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+import android.webkit.WebView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ClothingMenu extends AppCompatActivity {
-
-
+public class PracticeMenu extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.clothing_menu);
+        setContentView(R.layout.practice_menu);
 
+     WebView myWebview = (WebView)findViewById(webview)
+     Button google

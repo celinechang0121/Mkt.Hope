@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/google"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
@@ -19,7 +19,7 @@
         android:textSize="18dp" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/naver"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
